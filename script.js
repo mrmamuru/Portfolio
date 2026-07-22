@@ -31,16 +31,16 @@ const categories = [
   },
   {
     id: 'whoami',
-    label: 'Who I Am',
-    sub: 'Director · Creator · Founder',
+    label: 'Mahmud Mamuru Zaman',
+    sub: 'Content Creator · Founder · Perfumer',
     image: 'images/card-whoami.jpg',
     icon: '&#9679;',
-    desc: 'Filmmaker, content creator, and founder — building stories, brands, and a scent, one project at a time.',
-    lead: 'A short introduction to who I am, the path that led here, and the range of work across film, content, business, and fragrance.',
+    desc: 'Bangladesh\'s first luxury perfumer, a content creator, and a production house owner — building stories, brands, and a scent, one project at a time.',
+    lead: '"I always wanted to create something different. While others followed trends, I stayed awake nights dreaming of how to make Bangladesh proud." From his early days as a content creator to becoming Bangladesh\'s first luxury perfumer, Mamuru\'s journey has been one of relentless innovation.',
     subs: [
-      { tag:'Bio', title:'My Journey', text:'How it all started, and where it is headed.', image:'images/whoami-journey.jpg' },
-      { tag:'Skills', title:'What I Do', text:'Directing, editing, cinematography, brand strategy.', image:'images/whoami-skills.jpg' },
-      { tag:'Recognition', title:'Highlights', text:'Notable moments, milestones, and recognitions.', image:'images/whoami-recognition.jpg' }
+      { tag:'Bio', title:'My Journey', text:'From early days behind the camera to founding Alixa — a journey driven by the pursuit of something different, and a dream to make Bangladesh proud on a global stage.', image:'images/whoami-journey.jpg' },
+      { tag:'Skills', title:'What I Do', text:'A content creator and production house owner — directing, shooting, and editing cinematic brand content, while running a house that delivers the same for other brands at scale.', image:'images/whoami-skills.jpg' },
+      { tag:'Vision', title:'The Alixa Vision', text:'Alixa fuses traditional Bangladeshi craftsmanship with modern perfumery — fragrances built to carry Bangladesh\'s story to the world.', image:'images/whoami-recognition.jpg' }
     ]
   },
   {
