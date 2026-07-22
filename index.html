@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Director, Creator & Founder</title>
+<meta name="description" content="Portfolio of Your Name — filmmaker, content creator, founder of a production house, and creator of Alixa perfume.">
+<meta property="og:title" content="Your Name — Director, Creator & Founder">
+<meta property="og:description" content="Cinematic stories for brands, a production house that builds them, and a scent that carries the name — Alixa.">
+<meta property="og:image" content="images/card-whoami.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23070605'/%3E%3Ccircle cx='50' cy='50' r='34' fill='none' stroke='%23D4AF37' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='14' fill='%23D4AF37'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-atmos"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<header class="hero">
+  <div class="eyebrow">Director · Creator · Founder</div>
+  <h1 class="name">Your Name</h1>
+  <p class="tagline">Cinematic stories for brands, a production house that builds them, and a scent that carries the name — Alixa.</p>
+</header>
+
+<section class="stage" aria-label="Portfolio categories">
+  <svg class="aperture" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g stroke="#D4AF37" stroke-width="0.6" opacity="0.6">
+      <circle cx="100" cy="100" r="92"/>
+      <circle cx="100" cy="100" r="78"/>
+    </g>
+    <g id="blades" stroke="#D4AF37" stroke-width="0.5" opacity="0.45"></g>
+  </svg>
+
+  <div class="track" id="track"></div>
+</section>
+
+<section class="info">
+  <div class="player-bar" id="playerBar">
+    <button class="player-nav" id="barPrev" aria-label="Previous">&#8592;</button>
+    <div class="player-thumb" id="barThumb"><span id="barIcon"></span></div>
+    <div class="player-text">
+      <div class="player-title" id="infoTitle"></div>
+      <div class="player-sub" id="infoDesc"></div>
+    </div>
+    <div class="player-index" id="barIndex"></div>
+    <button class="player-nav" id="barNext" aria-label="Next">&#8594;</button>
+    <button class="player-explore" id="viewBtn" aria-label="Explore this category">&#8599;</button>
+  </div>
+</section>
+
+<footer>
+  <div class="social-row">
+    <a href="#" aria-label="Instagram" class="social-icon">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+    </a>
+    <a href="#" aria-label="YouTube" class="social-icon">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+    </a>
+    <a href="#" aria-label="Facebook" class="social-icon">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 4h-2.5A3.5 3.5 0 0 0 9 7.5V10H7v3h2v7h3v-7h2.5l.5-3H12V7.8c0-.7.4-1.1 1.1-1.1H15V4z"/></svg>
+    </a>
+  </div>
+  &copy; 2026 Your Name — All rights reserved. <br>
+  Built as a personal portfolio · <a href="#">Alixa</a>
+</footer>
+
+<div class="overlay" id="overlay" role="dialog" aria-modal="true">
+  <button class="overlay-close" id="closeOverlay" aria-label="Close">&#10005;</button>
+  <div class="overlay-panel" id="overlayPanel"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
